@@ -42,6 +42,7 @@ assessmentButton.onclick = () => {
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result);
     anchor.innerText = 'Tweet #あなたのいいところ';
+    anchor.setAttribute('data-text', 'https://hekuchi.github.io/assessment/assessment.html');
     tweetDivided.appendChild(anchor);
 
     // widgets.js の設定
